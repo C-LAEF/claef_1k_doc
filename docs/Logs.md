@@ -4,8 +4,11 @@ title: Changes in C-LAEF 1k suite
 nav_order: 1
 ---
 
+### 7.11.2023 15 UTC
+- ceilometer added
+
 ### 7.11.2023 09 UTC
-- New Bmatrix and reduced rednmc 
+- New Bmatrix and reduced rednmc
 
 ### 6.11.2023 09, 12 UTC
 - New binary with SPP bugfix, switch off CANOPY and update 2m diagnostics
