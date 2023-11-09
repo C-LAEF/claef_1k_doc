@@ -4,6 +4,12 @@ title: Changes in C-LAEF 1k suite
 nav_order: 1
 ---
 
+### 9.11.2023 12 UTC
+- exchange MASTERODB binary (ceilometer blacklisting)
+
+### 8.11.2023 12 UTC
+- change Lsoe in screening namelist
+
 ### 7.11.2023 15 UTC
 - ceilometer added
 
