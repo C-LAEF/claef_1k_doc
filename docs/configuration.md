@@ -8,6 +8,7 @@ The config file is sperated in different sections.
 
 ***general***
 |  **key word**  |  **value**  |  **Description** |
+|----------------|-------------|------------------|
 |  suite_home    | "default"   | Home directory of suite will be replace by current directory, here are your files required by ecflow. |
 |  suite_name    | "claef1k"   | Name of your ecflow-suite. Choose any name you like |
 |  account       | "atlaef"    | SBU account your jobs are using on ATOS |
