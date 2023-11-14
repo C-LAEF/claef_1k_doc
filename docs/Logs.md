@@ -3,7 +3,12 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 1
 ---
-
+### 14.11.2023 12 UTC
+- exchange all binaries with binaries from zat pack
+  (/ec/ws1/tc/zat/tcwork/PACKS/)
+- add snowgrid assimilation
+- bugfix in gust calculation
+  
 ### 9.11.2023 12 UTC
 - exchange MASTERODB binary (ceilometer blacklisting)
 
