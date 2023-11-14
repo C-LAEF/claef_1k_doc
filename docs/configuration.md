@@ -6,7 +6,8 @@ nav_order: 1
 
 The config file is sperated in different sections.
 
-***general***
+***general***  
+
 |  **key word**  |  **value**  |  **Description** |
 |----------------|-------------|------------------|
 |  suite_home    | "default"   | Home directory of suite will be replace by current directory, here are your files required by ecflow. |
