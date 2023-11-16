@@ -87,7 +87,8 @@ Switch on/off Extraction of values on station location using HARP. This works fo
 
 
 ***timing***  
-Times where certain tasks should be triggered. This has to be recoded in the future since there is for sure a better way how to define these times
+Times where certain tasks should be triggered. This has to be recoded in the future since there is for sure a better way how to define these times.  
+
 |     **key word**     |      **value**       |            **Description**           |
 |----------------------|----------------------|--------------------------------------|
 | comp                 | "00:30"              | Time when suite is forced to complete |
