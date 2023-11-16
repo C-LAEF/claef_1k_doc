@@ -26,6 +26,8 @@ Some general settings for C-LAEF 1k suites
 | remote         | ment_arch    | Association to be used in file transfers. Not yet implemented and might or might not be used in the future |
 
 
+
+
 ***paths***  
 Some basic paths to be used in the suite. Paths include some MACROS that are replaced in *read_config*. 
 
