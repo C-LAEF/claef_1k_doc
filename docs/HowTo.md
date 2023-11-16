@@ -22,10 +22,12 @@ If you get an error your ecflow-server has not been set up or is down -> create 
 ## How C-LAEF 1k can be configured
 Please be aware that making C-LAEF 1k user friendly and configurable is 'work in progress' and not all configurations might work out of the box.
 Go into directory def and create a config-file in toml format (see the documentation of the config-file for details). An example file is given in config.toml.
-Once you have created your config-file run
--> python3 suite.py
+Once you have created your config-file run from your top repository level:
+-> python3 def/suite.py --config_file [PATH_TO_YOUR_CONFIG.toml]
 
-Your setting are printed and your suite will be loaded in ecflow.
+If you do not specify a config_file the code will look for */home/USER/CLAEF_1k/def/config.toml*.
+
+Your setting are printed and your suite will be loaded in ecflow. The suite is suspended by default to allow you to check the suite in ecflow_ui. To start the suite resume the suspended task on top level (named like the suite_name you specified in your configurations).
 
 ## How C-LAEF 1k ecflow suite is built
 
