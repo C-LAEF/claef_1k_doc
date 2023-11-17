@@ -60,7 +60,8 @@ Basic setup for assimilation
 | assimi               | true                 | should assimilation be switched on   |
 | assimm               | 0                    | number of members without 3D-Var. Will be deprecated or changed to something like number of Member with randomlike setup |
 | assimc               | 3                    | length of assimilation cycle in hours, hence the time interval between two initial times |
-| eda                  | true                 | switch on/off eda in 3D-Var |
+| eda_pert             | true                 | switch on/off eda in 3D-Var with randomly perturbed parameter |
+| eda_unpert           | false                | switch on/off eda in 3D-Var with fixed parameter |
 | seda                 | true                 | switch on/off surface eda |
 | pertsurf             | true                 | switch on/off perturbation of sfx files |
 | stophy               | true                 | switch on/off stochastic pyhsics |
