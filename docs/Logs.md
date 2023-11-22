@@ -4,6 +4,10 @@ title: Changes in C-LAEF 1k suite
 nav_order: 1
 ---
 
+
+### 22.11.2023 15 UTC
+- switch off GPS assim. Has been active by mistake and was running without bias correction
+
 ### 16.11.2023 00 UTC
 - Changed grib header of EnVar member 17 to control forecast
 
