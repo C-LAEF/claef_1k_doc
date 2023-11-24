@@ -13,7 +13,7 @@ nav_order: 1
 On ATOS you have to make sure that your ecflow-server is setup by ECMWF staff before you can start an ecflow suite. Run the following commands on ATOS:
 - *export ECF_HOST=ecflow-gen-[USER]-001*
 - *export ECF_PORT=3141*
-If you don't know whether your ecflow-server is running do:
+If you don't know whether your ecflow-server is running do:  
 *ecflow-client --ping*
 
 If you get an error your ecflow-server has not been set up or is down -> create a Ticket and ask ECMWF staff to start your ecflow-server
@@ -22,7 +22,13 @@ If you get an error your ecflow-server has not been set up or is down -> create 
 ## How C-LAEF 1k can be configured
 Please be aware that making C-LAEF 1k user friendly and configurable is 'work in progress' and not all configurations might work out of the box.
 Go into directory def and create a config-file in toml format (see the documentation of the config-file for details). An example file is given in config.toml.
-Once you have created your config-file run from your top repository level:
+
+*Health warning for new suite names:*
+There is a missing feature to upload a new suite to ecflow at the moment. Before you can start a new suite you have to edit one line in *suite.py*. Go to line 178 and uncomment the following line:
+\# ci.load("{0}.def".format(self.config["general"]["suite_name"]))
+If your suite is loaded the first time you have to comment this again.
+
+Once you have created your config-file run from your top repository level:  
 -> python3 def/suite.py --config_file [PATH_TO_YOUR_CONFIG.toml]
 
 If you do not specify a config_file the code will look for */home/USER/CLAEF_1k/def/config.toml*.
