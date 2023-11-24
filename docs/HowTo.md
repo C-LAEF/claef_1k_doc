@@ -23,9 +23,9 @@ If you get an error your ecflow-server has not been set up or is down -> create 
 Please be aware that making C-LAEF 1k user friendly and configurable is 'work in progress' and not all configurations might work out of the box.
 Go into directory def and create a config-file in toml format (see the documentation of the config-file for details). An example file is given in config.toml.
 
-*Health warning for new suite names:*
-There is a missing feature to upload a new suite to ecflow at the moment. Before you can start a new suite you have to edit one line in *suite.py*. Go to line 178 and uncomment the following line:
-\# ci.load("{0}.def".format(self.config["general"]["suite_name"]))
+*Health warning for new suite names:*  
+There is a missing feature to upload a new suite to ecflow at the moment. Before you can start a new suite you have to edit one line in *suite.py*. Go to line 178 and uncomment the following line:  
+\# ci.load("{0}.def".format(self.config["general"]["suite_name"]))  
 If your suite is loaded the first time you have to comment this again.
 
 Once you have created your config-file run from your top repository level:  
@@ -33,7 +33,8 @@ Once you have created your config-file run from your top repository level:
 
 If you do not specify a config_file the code will look for */home/USER/CLAEF_1k/def/config.toml*.
 
-Your setting are printed and your suite will be loaded in ecflow. The suite is suspended by default to allow you to check the suite in ecflow_ui. To start the suite resume the suspended task on top level (named like the suite_name you specified in your configurations).
+Your setting are printed and your suite will be loaded in ecflow. The suite is suspended by default to allow you to check the suite in ecflow_ui. To start the whole suite resume the suspended task on top level (named like the suite_name you specified in your configurations).  
+Every run family starts with a *start_run* task that is suspended by default. You have to resume them manually or for a quasi-operational suite an external script must be implemented that resumes that task at a given time.
 
 ## How C-LAEF 1k ecflow suite is built
 
