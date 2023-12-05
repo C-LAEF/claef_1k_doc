@@ -28,7 +28,7 @@ There is a missing feature to upload a new suite to ecflow at the moment. Before
 \# ci.load("{0}.def".format(self.config["general"]["suite_name"]))  
 If your suite is loaded the first time you have to comment this again.
 
-Once you have created your config-file run from your top repository level:  
+Once you have created your config-file run from your top repository level (double dash for options*):  
 -> python3 def/suite.py --config_file [PATH_TO_YOUR_CONFIG.toml]
 
 If you do not specify a config_file the code will look for */home/USER/CLAEF_1k/def/config.toml*.
