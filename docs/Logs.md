@@ -5,6 +5,10 @@ nav_order: 1
 ---
 
 
+### 05.12.2023 12 UTC
+- major update of suite creation/scripts. Use config_oper.toml for esuite unter zat2. 
+- In 12 UTC run, EDA an stochastic physics was switched on by mistake for all members. Fixed for 15 UTC run. 
+
 ### 22.11.2023 15 UTC
 - switch off GPS assim. Has been active by mistake and was running without bias correction
 

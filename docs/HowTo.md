@@ -21,7 +21,7 @@ If you get an error your ecflow-server has not been set up or is down -> create 
 
 ## How C-LAEF 1k can be configured
 Please be aware that making C-LAEF 1k user friendly and configurable is 'work in progress' and not all configurations might work out of the box.
-Go into directory def and create a config-file in toml format (see the documentation of the config-file for details). An example file is given in config.toml.
+Go into directory *def* and create a config-file in toml format (see the documentation of the config-file for details). An example file is given in config.toml.
 
 *Health warning for new suite names:*  
 There is a missing feature to upload a new suite to ecflow at the moment. Before you can start a new suite you have to edit one line in *suite.py*. Go to line 178 and uncomment the following line:  
