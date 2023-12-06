@@ -35,6 +35,7 @@ If you do not specify a config_file the code will look for */home/USER/CLAEF_1k/
 
 Your setting are printed and your suite will be loaded in ecflow. The suite is suspended by default to allow you to check the suite in ecflow_ui. To start the whole suite resume the suspended task on top level (named like the suite_name you specified in your configurations).  
 Every run family starts with a *start_run* task that is suspended by default. You have to resume them manually or for a quasi-operational suite an external script must be implemented that resumes that task at a given time.
+Each initial time (RUN_XX) has another dependency in the task getobs. There is by default a time dependency (defined in config[timings]) and should be executed manually for case studies. 
 
 ## How C-LAEF 1k ecflow suite is built
 
