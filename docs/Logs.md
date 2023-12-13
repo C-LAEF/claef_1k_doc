@@ -4,6 +4,8 @@ title: Changes in C-LAEF 1k suite
 nav_order: 1
 ---
 
+### 13.12.2023 15 UTC
+- remove snow in flat areas to reduce negative bias observed in some parts of Austria and Bavaria
 
 ### 05.12.2023 12 UTC
 - major update of suite creation/scripts. Use config_oper.toml for esuite unter zat2. 
