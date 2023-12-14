@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Directory structure of CLAEF-1k
-nav_order: 1
+nav_order: 3
 ---
 
 If you clone your C-LAEF 1k from github the following directories are created:

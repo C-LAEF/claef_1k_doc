@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HowTo configure your C-LAEF 1k suite
-nav_order: 1
+nav_order: 2
 ---
 
 The config file is sperated in different sections.

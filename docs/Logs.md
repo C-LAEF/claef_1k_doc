@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Changes in C-LAEF 1k suite
-nav_order: 1
+nav_order: 4
 ---
 
 ### 13.12.2023 15 UTC
