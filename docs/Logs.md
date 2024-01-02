@@ -3,6 +3,9 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 4
 ---
+### 02.01.2023 12 UTC
+- initialize member 06 with first guess (soil+atmos) from member 00
+- initialize member 17 with first guess (soil+atmos) from member 00 (including envar=0 for 12 UTC run)
 
 ### 13.12.2023 15 UTC
 - remove snow in flat areas to reduce negative bias observed in some parts of Austria and Bavaria
