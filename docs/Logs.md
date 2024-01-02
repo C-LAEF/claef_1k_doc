@@ -3,7 +3,7 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 4
 ---
-### 02.01.2023 12 UTC
+### 02.01.2024 12 UTC
 - initialize member 06 with first guess (soil+atmos) from member 00
 - initialize member 17 with first guess (soil+atmos) from member 00 (including envar=0 for 12 UTC run)
 
