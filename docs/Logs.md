@@ -4,6 +4,10 @@ title: Changes in C-LAEF 1k suite
 nav_order: 4
 ---
 
+### 23.01.2024 09 UTC
+- Esuite updated with latest developments in the repo including https://github.com/C-LAEF/claef_1k/pull/41 and https://github.com/C-LAEF/claef_1k/pull/42
+- EnVAR Member switched off
+
 ### 08.01.2024 00 UTC
 - initialize member 17 with soil from member 00 and ECMWF atmo
 
