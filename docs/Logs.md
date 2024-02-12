@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 4
 ---
 
+### 12.02.2024 09 UTC
+- Suite switched off, only CTRL continues to run
+
 ### 23.01.2024 09 UTC
 - Esuite updated with latest developments in the repo including https://github.com/C-LAEF/claef_1k/pull/41 and https://github.com/C-LAEF/claef_1k/pull/42
 - EnVAR Member switched off
