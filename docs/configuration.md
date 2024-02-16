@@ -50,6 +50,7 @@ Basic setup of your ensemble.
 | couplf               | 1                    | coupling frequency for LBCs in hours |
 | step15               | false                | 15 minute output required, should be coded more flexible |
 | surf927              | true                 | Should 927surf be executed or not. |
+| coupl_model          | "ENS"                | Define which model to use for LBC generation. "ENS" uses ECMWF-ENS files from lbc_ens, "DET" ECMWF-HRES from lbc_ifs | 
 
 
 ***assim_setup***  
