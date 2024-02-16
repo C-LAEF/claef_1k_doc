@@ -79,7 +79,7 @@ Basic setup for model configuration.
 
  
 ***verif***  
-Switch on/off Extraction of values on station location using HARP. This works for the time beeing only under user zat2, and tasks have to be recoded or an HARP-environment has to be installed automatically when Repo is cloned....
+Switch on/off Extraction of values on station location using HARP. The extraction of model data is implemented in python. Please note that the model data are written in sqlite files as Ensemble even if the suite is used to run only one determinstic model. One has to deal with that in the HARP verification part.
 
 |     **key word**     |      **value**       |            **Description**           |
 |----------------------|----------------------|--------------------------------------|
