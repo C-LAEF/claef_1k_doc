@@ -4,6 +4,20 @@ title: Changes in C-LAEF 1k suite
 nav_order: 4
 ---
 
+### 12.02.2024 09 UTC
+- Suite switched off, only CTRL continues to run
+
+### 23.01.2024 09 UTC
+- Esuite updated with latest developments in the repo including https://github.com/C-LAEF/claef_1k/pull/41 and https://github.com/C-LAEF/claef_1k/pull/42
+- EnVAR Member switched off
+
+### 08.01.2024 00 UTC
+- initialize member 17 with soil from member 00 and ECMWF atmo
+
+### 02.01.2024 12 UTC
+- initialize member 06 with first guess (soil+atmos) from member 00
+- initialize member 17 with first guess (soil+atmos) from member 00 (including envar=0 for 12 UTC run)
+
 ### 13.12.2023 15 UTC
 - remove snow in flat areas to reduce negative bias observed in some parts of Austria and Bavaria
 

@@ -31,6 +31,10 @@ If your suite is loaded the first time you have to comment this again.
 Once you have created your config-file run from your top repository level (double dash for options*):  
 -> python3 def/suite.py --config_file [PATH_TO_YOUR_CONFIG.toml]
 
+Use may need to manually install the Python package "tomli": 
+
+pip3 install tomli
+
 If you do not specify a config_file the code will look for */home/USER/CLAEF_1k/def/config.toml*.
 
 Your setting are printed and your suite will be loaded in ecflow. The suite is suspended by default to allow you to check the suite in ecflow_ui. To start the whole suite resume the suspended task on top level (named like the suite_name you specified in your configurations).  
