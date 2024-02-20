@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 4
 ---
 
+### 20.02.2024 06 UTC
+- use revised Bmatrix 
+
 ### 12.02.2024 09 UTC
 - Suite switched off, only CTRL continues to run
 
