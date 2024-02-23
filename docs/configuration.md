@@ -51,6 +51,7 @@ Basic setup of your ensemble.
 | step15               | false                | 15 minute output required, should be coded more flexible |
 | surf927              | true                 | Should 927surf be executed or not. |
 | coupl_model          | "ENS"                | Define which model to use for LBC generation. "ENS" uses ECMWF-ENS files from lbc_ens, "DET" ECMWF-HRES from lbc_ifs | 
+| obsmon_extract        | true                | activate backend of obsmon |
 
 
 ***assim_setup***  
@@ -88,6 +89,13 @@ Switch on/off Extraction of values on station location using HARP. The extractio
 | tasks_harp_param     | ["T2m","rhum2m",....] | List of surface Parameter to be extracted with harp-io |
 | upper_params         | ["T", "rhum", "u", "v"] | List of parameter that should be extracted for verification on pressure level |
 | level                | ["500", "700", "850"]  | List of pressure level where parameter should be extracted |
+
+***obsmon***
+Some settings for the extraction of odb for obsmon. The current setup represents the odb-bases that are working for the time beeing. The obsmon_stat_all scripts needs some revision.
+
+|     **key word**     |      **value**       |            **Description**           |
+|----------------------|----------------------|--------------------------------------|
+| odb_obstype           | {"ecma_sfc" = ["synop", "ship", "dribu"], "ecma" = ["synop", "temp", "pilot", "aircraft"], "ccma" = ["synop", "temp", "pilot", "aircraft"]}       | specify which obstypes should be extracted from which odb   |
 
 
 ***timing***  
