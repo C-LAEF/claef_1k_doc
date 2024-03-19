@@ -24,7 +24,7 @@ You might remove the values outside the INCA-domain from this file by removing a
 
 The maprrobs routine also reads a dummy fa-file where all Rain-fields are set to -999.99 (can be created by /home/kmw/CLAEF_1k/tools/create_emptyrrobs.py). This dummy file is read by maprrobs and the interpolated precipitation fields are written to the S0??RAIN fields specified in the namelist.
 
-## Implementation in C-LAEF 1k suite
+### Implementation in C-LAEF 1k suite
 The file include/observations/lhn.config holds the latent heat nudging specific settings. 
 In getobs the INCA precipitation analysis with 15 minute resolution are fetched from GeoSphere
 In lhn_prep the Interpolation from INCA grb2 files to C-LAEF 1k grid is done and the Fields are written to ${NUDGPREPDIR}/INPUT_LHN.fa. The precipitation fields are written to S0??RAIN levels ordered by time which is important when the file is written by 001.
