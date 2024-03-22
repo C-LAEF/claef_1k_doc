@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ww diagnostics
-nav_order: 1
+nav_order: 7
 ---
 
 ## Background
