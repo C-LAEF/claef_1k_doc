@@ -29,20 +29,20 @@ The methodology is pretty much the same as above, the only difference is part 1.
 The „jokers“ are working in the same way as in the canopy version.
 
 ## Namelist switches in block NAM_DIAG_ISBAN of the surfex namelist:
-Most switches are defined as a field with 3 arguments (valley, flatland, moutain).
+Most switches are defined as a field with 3 arguments (valley, flatland, moutain).  
    N2MTG=1,                      !activation of ww diagnostics
-   XTRIMF_TSURF_NIGHT=1.0,0.7,0.0,          !weight of surface temperature in each IFAC class
-   XLEVEL_DAY_START=1.33,2.0,5.0,           !start canopy level during day in each IFAC class
-   XLEVEL_DAY_END=2.0,2.0,5.0,              !end canopy level during day in each IFAC class
-   XLEVEL_NIGHT_START=1.0,1.0,5.0,          !start canopy level during night in each IFAC class
-   XLEVEL_NIGHT_END=1.0,1.0,5.0,            !end canopy level during night in each IFAC class
-   XLEVEL_K_DAY=1.0,                        !slope of linear function during day (1=till end of forecast)
-   XLEVEL_K_NIGHT=1.0,                !slope of linear function during day (1=till end of forecast)
-   XMODIF_TLEV_START=0.0,0.0,0.0,           !heat wave joker in °C at init
-   XMODIF_TLEV_END=-2.0,-2.0,0.0,         !heat wave joker in °C at end of forecast
-   XMODIF_TSURF_START=0.0,0.0,0.0,           !tsurf joker in °C at init
-   XMODIF_TSURF_END=-2.0,-2.0,0.0,         !tsurf joker in °C at end of forecast
-   XMODIF_TLEV_K=7., !at XMODIF_TLEV_THRES+XMODIV_TLEV_K the full heat wave joker will be applied
-   XMODIF_TLEV_THRES=308.,                  !threshold for heat wave joker in K
-   XSMOOTH_DAY_NIGHT=10800.,          !temporal smoothing for transition day/night in sec
+   XTRIMF_TSURF_NIGHT=1.0,0.7,0.0,          !weight of surface temperature in each IFAC class   
+   XLEVEL_DAY_START=1.33,2.0,5.0,           !start canopy level during day in each IFAC class   
+   XLEVEL_DAY_END=2.0,2.0,5.0,              !end canopy level during day in each IFAC class   
+   XLEVEL_NIGHT_START=1.0,1.0,5.0,          !start canopy level during night in each IFAC class   
+   XLEVEL_NIGHT_END=1.0,1.0,5.0,            !end canopy level during night in each IFAC class     
+   XLEVEL_K_DAY=1.0,                        !slope of linear function during day (1=till end of forecast)  
+   XLEVEL_K_NIGHT=1.0,                      !slope of linear function during day (1=till end of forecast)  
+   XMODIF_TLEV_START=0.0,0.0,0.0,           !heat wave joker in °C at init  
+   XMODIF_TLEV_END=-2.0,-2.0,0.0,           !heat wave joker in °C at end of forecast  
+   XMODIF_TSURF_START=0.0,0.0,0.0,          !tsurf joker in °C at init  
+   XMODIF_TSURF_END=-2.0,-2.0,0.0,          !tsurf joker in °C at end of forecast  
+   XMODIF_TLEV_K=7.,                        !at XMODIF_TLEV_THRES+XMODIV_TLEV_K the full heat wave joker will be applied  
+   XMODIF_TLEV_THRES=308.,                  !threshold for heat wave joker in K  
+   XSMOOTH_DAY_NIGHT=10800.,                !temporal smoothing for transition day/night in sec  
 
