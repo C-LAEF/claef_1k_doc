@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Documentation how features are implemented
-nav_order: 2
+nav_order: 5
 ---
 
 This document is to keep track how different features/methods/etc. are implemented or setup in C-LAEF 1k
