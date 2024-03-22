@@ -44,3 +44,11 @@ Each initial time (RUN_XX) has another dependency in the task getobs. There is b
 ## How C-LAEF 1k ecflow suite is built
 
 *suite.py* reads *read_config.py* which reads the config file given, and creates the config-dictionary used by *suite.py*. *read_config.py* also does some default setting and modifies the setup if the user specifies something in the optional sections *member_setup* and *exp_setup*. 
+
+## How to introduce a new config-parameter (member-dependent)
+
+check list:
+- config.toml  (introduce into default part and optional [member_setup] if necessary 
+- ready_config.py  (introduce into loop of mem)
+- suity.py  (check which tasks need to know about the new variable/parameter, check whether it needs to be insorted in both sides of if/else to avoid problems with unset variables)
+
