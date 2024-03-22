@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notes on operational setup
-nav_exclude: true
+nav_order: 7
 ---
 
 The operational suite has some addtional families that are not required if run under personal user in research mode.
