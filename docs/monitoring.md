@@ -4,4 +4,20 @@ title: Monitoring
 nav_order: 4
 ---
 
-ddd
+
+member raus/reinnehmen?
+
+   -> config.oper:  suite anpassen
+   -> member erhöhen/reduzieren (+ optionalen Teil)
+   -> python suite.py
+   -> Zeitpunkt?
+
+aladin @vclaef01-1
+
+-> nwp_postproc/extract ... / config.toml
+-> num_mem und min_mem anpassen (ansonsten wird gewartet)
+
+
+
+
+
