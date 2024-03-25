@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 25.03.2024 00 UTC
+- Control member ensemble with 2 Member, Member_00 Control with passive Assimilation of GNSS, Member_01 use Radar reflectivity in 3D-Var. Member_02 has been switched off because of problems with stability (traj. underground).
+  
 ### 21.03.2024 00 UTC
 - Control member ensemble with 3 Member, Member_00 Control with passive Assimilation of GNSS, Member_01 use Radar reflectivity in 3D-Var, Member_02 with Latent Heat Nudging of INCA precipitation analysis
 
