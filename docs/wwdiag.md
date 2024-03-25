@@ -10,7 +10,7 @@ This diagnostics has been developed at GeoSphere Austria by Wastl and Wittmann (
 With the upgrade of C-LAEF to 1k in 2024, the ww diagnostics has been extended to a usage without canopy scheme. In this case the screening level height (default is 2m for temperature and humidity) is adapted.
 
 ## Methodology (Canopy scheme on)
-The ww diagnostics is activated in the namelist block NAM_DIAG_ISBAN by choosing N2MTG=1. The main routine dealing with ww diagnostics is surfex/SURFEX/coupling_isba_canopyn.F90. 
+The ww diagnostics is activated in the namelist block NAM_DIAG_ISBAN of the surfex namelist by choosing N2MTG=1 and by setting LDIAGSCREENWW=.T. in NAMPHY of the 001 namelist. The main routine dealing with ww diagnostics is surfex/SURFEX/coupling_isba_canopyn.F90. 
 The ww diagnostics has been developed based on the 3 requirements explained above.   
 
 1.)	The first part is the determination of the screening level in each IFAC class defined by namelist settings (see namelist description in the section below). This is done by a linear interpolation between the defined level at the beginning of the forecast (e.g. namelist switch ZLEVEL_DAY_START) and the end (ZLEVEL_DAY_END). The transition between the level at the beginning and the end is based on a slope parameter defined in the namelist (XLEVEL_K_NIGHT, XLEVEL_K_DAY). 1 means that the end level is reached at the end of the forecast, 2 means that it is reached after the half of the forecasting range, etc. 
@@ -28,6 +28,9 @@ A similar „joker“ has also been implemented for summer heat waves to avoid u
 The original ww diagnostics has been developed for a situation when the canopy scheme is switched on, but with the upgrade of C-LAEF to 1k we wanted to get rid of this canopy scheme and therefore it has been coded into the routine surfex/SURFEX/diag_inline_isban.F90 as well. It is activated by setting N2MTG=1 in the block NAM_DIAG_ISBAN. 
 The methodology is pretty much the same as above, the only difference is part 1. Here we do not adapt the canopy levels as before, but we adapt directly the screening level height ZH. This ZH is then passed to the according tq interpolation routine (depending on N2M in NAM_DIAG_SURFN). This means that the ww diagnostics can be used together with Paulsen (N2M=1), Gelyn (N2M=2) or Dian (N2M=2) diagnostics. The namelist switches stay the same, but the level can be chosen between 0 (surface) and the height oft he lowest model levels (5 at the moment). The trimming against Tsurf is done only in case of ZTINV criterion is fulfilled (radiation, inversion, clouds) and is an additional transition towards the surface temperature. 
 The „jokers“ are working in the same way as in the canopy version.
+
+## Namelist switches in block NAMPHY of the 001 namelist:
+LDIAGSCREENWW=.T.,
 
 ## Namelist switches in block NAM_DIAG_ISBAN of the surfex namelist:
 Most switches are defined as a field with 3 arguments (valley, flatland, moutain).  
