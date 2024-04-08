@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 08.04.2024 06 UTC
+- Adapted forecast ranges: 00UTC -> +60h, 06UTC -> +24h, 03/09/12UTC -> +6h, 15/18/21UTC -> +4h
+
 ### 25.03.2024 00 UTC
 - Control member ensemble with 2 Member, Member_00 Control with passive Assimilation of GNSS, Member_01 use Radar reflectivity in 3D-Var. Member_02 has been switched off because of problems with stability (traj. underground).
   
