@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 09.04.2024 06 UTC
+- Add member 02 (linear trunc) and member 03 (quadratic trunc) to see impact of spectral truncation. Started in downscaling mode.
+
 ### 08.04.2024 06 UTC
 - Adapted forecast ranges: 00UTC -> +60h, 06UTC -> +24h, 03/09/12UTC -> +6h, 15/18/21UTC -> +4h
 
