@@ -11,7 +11,7 @@ nav_order: 8
   - Member 01: same as Member 00 but with GNSS
   - Member 02: Old control setup without Radar
   - Member 03: Like Member 00 but with new 2m diagnostic from Wastl/Wittmann
-  - Member 04: Like Member 00 but with laten heat nudging in the first 30 minutes
+
 
 Initial files from previous Member 01 (including Radar) were used for Member 00, 01, 03, and 04. Intitial files from previous Member 00 were used for Member 02 to evaluate possible long term drying of Radar data.
 
