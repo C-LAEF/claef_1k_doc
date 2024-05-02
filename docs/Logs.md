@@ -4,6 +4,17 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 02.05.2024 09 UTC
+- New member setup and new binaries after accepting https://github.com/FlorianW-ZAMG/arpifs/pull/7 and https://github.com/FlorianW-ZAMG/arpifs/pull/6
+- New setup:  
+  - Member 00: control run includes Radar Reflectivity
+  - Member 01: same as Member 00 but with GNSS
+  - Member 02: Old control setup without Radar
+  - Member 03: Like Member 00 but with new 2m diagnostic from Wastl/Wittmann
+  - Member 04: Like Member 00 but with laten heat nudging in the first 30 minutes
+
+Initial files from previous Member 01 (including Radar) were used for Member 00, 01, 03, and 04. Intitial files from previous Member 00 were used for Member 02 to evaluate possible long term drying of Radar data.
+
 ### 09.04.2024 06 UTC
 - Add member 02 (linear trunc) and member 03 (quadratic trunc) to see impact of spectral truncation. Started in downscaling mode.
 
