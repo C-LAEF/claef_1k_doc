@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Documentation how features are implemented
-nav_order: 5
+nav_order: 4
 ---
 
 This document is to keep track how different features/methods/etc. are implemented or setup in C-LAEF 1k
@@ -48,4 +48,8 @@ This is required to select stations that are trustworthy and can be used in 3D-V
 *NAMVARBC_SFCOBS
   LBC_SFCOBS_APD=.T.,   !GNSS Varbc
   LCOLDSTART_SFCOBS=.T.,*
+
+### Analyse VARBC coefficients
+AccordDaTools include two scripts to analyse the VARBC coefficients. *varbcdiagnose.sh* and *plotvarbccoeff.py* with slight modifications for GNSS can be found under: */home/kmw/projects/AccordDaTools/scripts/*  
+First run *varbcdiagnose.sh* which loops over the VARBC.cycle files located in the input directory and writes files for plotting. 
 
