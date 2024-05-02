@@ -14,6 +14,7 @@ nav_order: 8
 
 
 Initial files from previous Member 01 (including Radar) were used for Member 00, 01, and 03. Intitial files from previous Member 00 were used for Member 02 to evaluate possible long term drying of Radar data.
+Includes bug fix in namelist_lamflag3D
 
 ### 09.04.2024 06 UTC
 - Add member 02 (linear trunc) and member 03 (quadratic trunc) to see impact of spectral truncation. Started in downscaling mode.
