@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 14.05.2024 09 UTC
+- adaptation of ww diagnostics based on verfication results. This only effects member 03.
+
 ### 02.05.2024 09 UTC
 - New member setup and new binaries after accepting [arpifs_PR7](https://github.com/FlorianW-ZAMG/arpifs/pull/7) and [arpifs_PR6](https://github.com/FlorianW-ZAMG/arpifs/pull/6)
 - New setup:  
