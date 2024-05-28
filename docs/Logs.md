@@ -4,6 +4,13 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 28.05.2024 09 UTC
+- Restart full ensemble with 16+1 member
+- inclusive 2m diagnostic of Wastl/Wittmann
+- Including Radar reflectivities and GNSS
+- Following forecast ranges: 00UTC -> +60h, 03 UTC -> +6h, 06 UTC -> +24h, 09/12/15/18/21UTC -> +6h
+- Control Member with 4 long runs: 00/06/12/18 UTC -> +60h
+
 ### 14.05.2024 09 UTC
 - adaptation of ww diagnostics based on verfication results. This only affects member 03.
 
