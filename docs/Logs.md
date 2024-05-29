@@ -4,7 +4,7 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
-### 28.05.2024 09 UTC
+### 29.05.2024 09 UTC
 - Restart full ensemble with 16+1 member
 - inclusive 2m diagnostic of Wastl/Wittmann
 - Including Radar reflectivities and GNSS
