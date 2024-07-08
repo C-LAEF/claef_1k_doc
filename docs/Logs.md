@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 08.07.2024 12 UTC
+- Add updraft helicity tracks.
+ 
 ### 29.05.2024 09 UTC
 - Restart full ensemble with 16+1 member
 - inclusive 2m diagnostic of Wastl/Wittmann
