@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 09.07.2024 12 UTC
+- Transfer to ARSO implemented
+
 ### 08.07.2024 12 UTC
 - Add updraft helicity tracks.
  
