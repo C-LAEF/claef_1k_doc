@@ -4,6 +4,11 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 16.07.2024 12 UTC
+- member 00 : dynamics setup changed (-> SLHD=T, COMAD=F=)
+- member 01 : previous dyn setup (-> SLHD=F, COMAD=T .. MF setup)
+- member 02:  using fixes for radar (saturation, etc.)
+
 ### 09.07.2024 12 UTC
 - Transfer to ARSO implemented
 
