@@ -3,7 +3,14 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
-
+### 25.07.2024 09 UTC
+- member 00: ctrl. with optimized dynamics setup (MF setup + RDAMPQ and RDAMPT adapted)
+- member 01: ctrl. with dyn setup of MF (-> SLHD=F, COMAD=T)
+- member 02: ctrl. with dyn setup of MF + using fixes for radar (saturation, etc.)
+- member 03: ctrl. with SLHD=T (for GFL) and COMAD=T (for W and T)
+- member 17: ctrl. with Envar data assimilation (not yet working, 001 segfault, switched of )
+- all other members are perturbed members with dyn setup of MF
+- 
 ### 22.07.2024 09 UTC
 - member 00: ctrl. with optimized dynamics setup (not yet decided, so MF setup used so far)
 - member 01: ctrl. with dyn setup of MF (-> SLHD=F, COMAD=T)
