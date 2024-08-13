@@ -3,6 +3,14 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+### 13.08.2024 06 UTC
+- member 00: ctrl. SLHD=T, COMAD=F + using fixes for radar (saturation, etc.) 
+- member 01: ctrl. SLHD=T, COMAD=F
+- member 02: ctrl. with dyn setup of MF (-> SLHD=F, COMAD=T) + using fixes for radar (saturation, etc.)
+- member 03: ctrl. with SLHD=T, COMAD=T (for Q) + using fixes for radar (saturation, etc.)
+- member 17: ctrl. with Envar data assimilation (not yet working, 001 segfault, switched of )
+- all other members are similar to member 00 but with perturbations
+
 ### 02.08.2024 09 UTC
 - member 00: ctrl. with dyn setup of MF + using fixes for radar (saturation, etc.) 
 - member 01: ctrl. with dyn setup of MF (-> SLHD=F, COMAD=T)
