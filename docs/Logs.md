@@ -3,6 +3,12 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+
+### 16.9.2024 06 UTC
+- long runs for perturbed member switched off. All runs are only up to +6h for EnVar
+- switch on member17: ctrl with EnVar, 00 UTC run up to +60h, all other runs up to +6h
+- member 00: long runs for 00/06/12/18 UTC
+
 ### 13.08.2024 06 UTC
 - member 00: ctrl. SLHD=T, COMAD=F + using fixes for radar (saturation, etc.) 
 - member 01: ctrl. SLHD=T, COMAD=F
