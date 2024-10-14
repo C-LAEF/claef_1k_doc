@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 14.10.2024 06 UTC
+- deactivate 2m obs at night in EnVar (-> https://github.com/C-LAEF/claef_1k/pull/76)
+
 ### 16.9.2024 06 UTC
 - long runs for perturbed member switched off. All runs are only up to +6h for EnVar
 - switch on member17: ctrl with EnVar, 00 UTC run up to +60h, all other runs up to +6h
