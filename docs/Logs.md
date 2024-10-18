@@ -3,7 +3,12 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
-
+### 18.10.2024 00 UTC
+- new setting to set-up first B-matrix
+- member 00 as before, oper domain
+- member 01-16 are running in downscaling mode (EZ atmo and soil) with +6h leadtime, large domain, slightly modified dynamic setup
+- member 17, envar member on large domain, slightly modified dynamic setup
+  
 ### 14.10.2024 06 UTC
 - deactivate 2m obs at night in EnVar (-> https://github.com/C-LAEF/claef_1k/pull/76)
 
