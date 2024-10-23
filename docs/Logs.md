@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 23.10.2024 09 UTC
+- update Binaries, all cy46 binaries recompiled using ECMWF eccodes installation instead of Ryad's eccode installation on $PERM
+
 ### 22.10.2024 12 UTC
 - all members on new domain  (Member 01 - Member17) initialized with ARPEGE surface, and EZ atmo
 - surface assimilation switched on for Member 01-16
