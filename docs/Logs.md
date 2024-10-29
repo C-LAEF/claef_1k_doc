@@ -9,7 +9,7 @@ nav_order: 8
 
 ### 22.10.2024 12 UTC
 - all members on new domain  (Member 01 - Member17) initialized with ARPEGE surface, and EZ atmo
-- surface assimilation switched on for Member 01-16
+- surface assimilation switched on for Member 01-17
 
 ### 18.10.2024 00 UTC
 - new setting to set-up first B-matrix
