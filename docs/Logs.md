@@ -3,7 +3,9 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
-
+### 05.11.2024 09 UTC
+- switch on 3DVAR for all members based on a new B-matrix
+  
 ### 23.10.2024 09 UTC
 - update Binaries, all cy46 binaries recompiled using ECMWF eccodes installation instead of Ryad's eccode installation on $PERM
 
