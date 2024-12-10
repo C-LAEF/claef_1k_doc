@@ -3,6 +3,11 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+### 10.12.2024 12 UTC
+- major suite update
+- enlarged domain
+- fullpos revised
+
 ### 05.11.2024 09 UTC
 - switch on 3DVAR for all members based on a new B-matrix
   
