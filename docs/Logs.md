@@ -3,6 +3,10 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+
+### 16.1.2025 09 UTC
+- switch on lagged ensemble
+
 ### 10.12.2024 12 UTC
 - major suite update
 - enlarged domain
