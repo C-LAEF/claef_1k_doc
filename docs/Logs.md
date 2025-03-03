@@ -4,6 +4,12 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 03.03.2025 09 UTC
+- full ensemble switche off.
+  CTRL-Leadtimes: +60h for 00, 06, 12, and 18 UTC, other init-times up to +06h
+  ENVAR-Leadtimes: +24h for 00 UTC, other init-times up to +06h
+  perturbed member leadtimes: +06h
+
 ### 16.1.2025 09 UTC
 - switch on lagged ensemble
 
