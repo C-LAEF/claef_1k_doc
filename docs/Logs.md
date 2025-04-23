@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 23.4.2025 09 UTC
+- Suite migrated to *zacs*
+
 ### 16.1.2025 09 UTC
 - switch on lagged ensemble
 
