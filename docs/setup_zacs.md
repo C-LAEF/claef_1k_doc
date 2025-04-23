@@ -33,3 +33,8 @@ source /home/zacs/.env_gmkpack
 available packs are:
 - cy46_production.01.OMPIIFC2104SP.x: Single Precision binary, only MASTERODB
 - cy46_production.01.OMPIIFC2104.x: Double Precision binaries
+
+### Addgrib-tools
+This is a collection of very old C and Fortran routines to add some post-processing fields. The routines are compiled and collected in a dynamic library which will be called in the addgrib-task. cd .The repository is still on GeoSphere's gitlab repository and needs to be transferred to github sooner or later. 
+
+Source code is located in /home/zacs/packages/arome_addgribtools

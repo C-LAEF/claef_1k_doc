@@ -7,6 +7,12 @@ nav_order: 8
 ### 23.4.2025 09 UTC
 - Suite migrated to *zacs*
 
+### 03.03.2025 09 UTC
+- full ensemble switched off.  
+  CTRL-Leadtimes: +60h for 00, 06, 12, and 18 UTC, other init-times up to +06h  
+  ENVAR-Leadtimes: +24h for 00 UTC, other init-times up to +06h  
+  perturbed member leadtimes: +06h
+
 ### 16.1.2025 09 UTC
 - switch on lagged ensemble
 
