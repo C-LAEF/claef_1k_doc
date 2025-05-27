@@ -4,6 +4,10 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 26.5.2025 09 UTC
+- Remove random member, using downscaling
+- major technical update of the suite
+
 ### 23.4.2025 09 UTC
 - Suite migrated to *zacs*
 
