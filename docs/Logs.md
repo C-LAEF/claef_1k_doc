@@ -4,6 +4,14 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 17.6.2025 06 UTC
+- switch on full ensemble
+- switch to newly created B-Matrix
+
+### 11.6.2025 06 UTC
+- re-activate observation perturbation 
+- remove inline FPos
+
 ### 26.5.2025 09 UTC
 - Remove random member, using downscaling
 - major technical update of the suite
