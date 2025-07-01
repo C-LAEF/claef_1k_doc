@@ -4,6 +4,10 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 1.7.2025 06 UTC
+- long 12 UTC run for EnVar member
+- Geosphere switch to grib2 -> full system on grib2 now
+
 ### 17.6.2025 06 UTC
 - switch on full ensemble
 - switch to newly created B-Matrix
