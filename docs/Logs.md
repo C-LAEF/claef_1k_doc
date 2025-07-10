@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 10.7.2025 09 UTC
+- bug fix for accumulated fiels in lagged members. Caused errors in VisWea if fields in lagged member had uniform values of 0
+
 ### 1.7.2025 06 UTC
 - long 12 UTC run for EnVar member
 - Geosphere switch to grib2 -> full system on grib2 now
