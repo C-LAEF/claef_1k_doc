@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 15.7.2025 09 UTC
+- tuning of SPP to avoid instabilities.
+
 ### 10.7.2025 09 UTC
 - bug fix for accumulated fiels in lagged members. Caused errors in VisWea if fields in lagged member had uniform values of 0
 
