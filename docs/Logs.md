@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 1.8.2025 06 UTC
+- change Envar member to perturbed member for Visual weather.
+  
 ### 15.7.2025 09 UTC
 - tuning of SPP to avoid instabilities.
 
