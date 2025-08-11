@@ -3,6 +3,8 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+### 8.8.2025 06 UTC
+- orography is now exchange in sstex (to avoid 001 crashes with SP)
 
 ### 1.8.2025 06 UTC
 - change Envar member to perturbed member for Visual weather.
