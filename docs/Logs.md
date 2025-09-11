@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 20.8.2025 09 UTC
+- End of summer test period. Perturbed member back to short lead times, Control with +60h for 00/06/12/18 UTC, EnVar member +60h for 00/12 UTC
+
 ### 18.8.2025 09 UTC
 - updated inflation factor for EnVar to avoid regular crashes (https://github.com/C-LAEF/claef_1k/pull/118)
 
