@@ -3,6 +3,10 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+
+### 18.8.2025 09 UTC
+- updated inflation factor for EnVar to avoid regular crashes (https://github.com/C-LAEF/claef_1k/pull/118)
+
 ### 8.8.2025 06 UTC
 - orography is now exchange in sstex (to avoid 001 crashes with SP)
 
