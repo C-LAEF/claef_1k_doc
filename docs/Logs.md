@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 25.9.2025 06 UTC
+- Technical testperiod stopped due to technical issues. Forecast range reduced to +6h for perturbed member, only 00/06/12/18 UTC for CTRL run with long fcst range as well as 00/12 UTC for EnVar Member 01.
+
 ### 22.9.2025 06 UTC
 
 - Major upgrade of the suite, start with full ensemble for technical test period
