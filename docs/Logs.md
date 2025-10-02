@@ -12,7 +12,7 @@ nav_order: 8
   - <https://github.com/C-LAEF/claef_1k/pull/132>
   - <https://github.com/C-LAEF/claef_1k/pull/133>
   - <https://github.com/C-LAEF/claef_1k/pull/126>
-  - <https://github.com/C-LAEF/claef_1k/commit/9ec0fc5b3aacbe216c5aaae0d6870b64ed3e1ea7>
+  - <https://github.com/C-LAEF/claef_1k/commit/9ec0fc5b3aacbe216c5aaae0d6870b64ed3e1ea7> -> this has to be reverted since the model code needs an update for that
 
 ### 25.9.2025 06 UTC
 - Technical testperiod stopped due to technical issues. Forecast range reduced to +6h for perturbed member, only 00/06/12/18 UTC for CTRL run with long fcst range as well as 00/12 UTC for EnVar Member 01.
