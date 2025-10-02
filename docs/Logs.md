@@ -4,6 +4,16 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 2.10.2025 06 UTC
+- technical suite upgrade to enhance stability of EnVar member and some modifications to grib2 output (including setting of originating Center). Details of the modifications that are included in this upgrade can be found in:
+  - <https://github.com/C-LAEF/claef_1k/pull/130>
+  - <https://github.com/C-LAEF/claef_1k/pull/131>
+  - <https://github.com/C-LAEF/claef_1k/pull/129>
+  - <https://github.com/C-LAEF/claef_1k/pull/132>
+  - <https://github.com/C-LAEF/claef_1k/pull/133>
+  - <https://github.com/C-LAEF/claef_1k/pull/126>
+  - <https://github.com/C-LAEF/claef_1k/commit/9ec0fc5b3aacbe216c5aaae0d6870b64ed3e1ea7>
+
 ### 25.9.2025 06 UTC
 - Technical testperiod stopped due to technical issues. Forecast range reduced to +6h for perturbed member, only 00/06/12/18 UTC for CTRL run with long fcst range as well as 00/12 UTC for EnVar Member 01.
 
