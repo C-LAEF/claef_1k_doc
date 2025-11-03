@@ -4,6 +4,12 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 14.10.2025 06 UTC
+  - End of ECMWF test period with later operational setup
+
+### 7.10.2025 06 UTC
+  - Start of ECMWF test period with later operational setup
+    
 ### 2.10.2025 06 UTC
 - technical suite upgrade to enhance stability of EnVar member and some modifications to grib2 output (including setting of originating Center). Details of the modifications that are included in this upgrade can be found in:
   - <https://github.com/C-LAEF/claef_1k/pull/130>
