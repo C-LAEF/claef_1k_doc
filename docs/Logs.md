@@ -4,6 +4,17 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 05.11.2025 09 UTC
+- Technical update with a few minor fixes. The most important is the correction of the call to radiation routines which was not properly set after changing the model time step
+  - <https://github.com/C-LAEF/claef_1k/pull/140>
+  - <https://github.com/C-LAEF/claef_1k/pull/138>
+  - <https://github.com/C-LAEF/claef_1k/pull/137>
+  - <https://github.com/C-LAEF/claef_1k/pull/139>
+  - <https://github.com/C-LAEF/claef_1k/pull/136>
+  - <https://github.com/C-LAEF/claef_1k/pull/119>
+  - <https://github.com/C-LAEF/claef_1k/pull/134>
+  - <https://github.com/C-LAEF/claef_1k/pull/135>
+
 ### 14.10.2025 06 UTC
   - End of ECMWF test period with later operational setup
 
