@@ -18,7 +18,7 @@ nav_order: 8
 ### 14.10.2025 06 UTC
   - End of ECMWF test period with later operational setup
 
-### 7.10.2025 06 UTC
+### 6.10.2025 06 UTC
   - Start of ECMWF test period with later operational setup
     
 ### 2.10.2025 06 UTC
