@@ -4,7 +4,23 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 12.01.2026 09 UTC
+
+- Revert time step to 45 seconds. Activate new dynamic setting, improved ressources for fpos, updated max snow threshold, and minor fixes to grib1 output
+  - <https://github.com/C-LAEF/claef_1k/pull/149>
+  - <https://github.com/C-LAEF/claef_1k/pull/145>
+  - <https://github.com/C-LAEF/claef_1k/pull/142>
+  - <https://github.com/C-LAEF/claef_1k/pull/141>
+
+### 02.12.2025
+
+- Technical fix in trigger for screening
+  - <https://github.com/C-LAEF/claef_1k/pull/146>
+  - <https://github.com/C-LAEF/claef_1k/pull/144>
+  - <https://github.com/C-LAEF/claef_1k/pull/141>
+
 ### 05.11.2025 09 UTC
+
 - Technical update with a few minor fixes. The most important is the correction of the call to radiation routines which was not properly set after changing the model time step
   - <https://github.com/C-LAEF/claef_1k/pull/140>
   - <https://github.com/C-LAEF/claef_1k/pull/138>
@@ -16,12 +32,15 @@ nav_order: 8
   - <https://github.com/C-LAEF/claef_1k/pull/135>
 
 ### 14.10.2025 06 UTC
-  - End of ECMWF test period with later operational setup
+
+- End of ECMWF test period with later operational setup
 
 ### 6.10.2025 06 UTC
-  - Start of ECMWF test period with later operational setup
-    
+
+- Start of ECMWF test period with later operational setup
+
 ### 2.10.2025 06 UTC
+
 - technical suite upgrade to enhance stability of EnVar member and some modifications to grib2 output (including setting of originating Center). Details of the modifications that are included in this upgrade can be found in:
   - <https://github.com/C-LAEF/claef_1k/pull/130>
   - <https://github.com/C-LAEF/claef_1k/pull/131>
