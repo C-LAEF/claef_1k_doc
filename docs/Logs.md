@@ -4,6 +4,10 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 26.01.2026 09 UTC
+- Use of new binaries including fix for SST in OIMAIN
+  - <https://github.com/C-LAEF/arpifs/pull/27>
+
 ### 12.01.2026 09 UTC
 
 - Revert time step to 45 seconds. Activate new dynamic setting, improved ressources for fpos, updated max snow threshold, and minor fixes to grib1 output
