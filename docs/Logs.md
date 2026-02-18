@@ -4,6 +4,14 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 17.02.2026 09 UTC
+- Start of technical test period. System was updated including long ctrl runs to replace some members, optimized facat and some minor fixes.
+  - <https://github.com/C-LAEF/claef_1k/pull/143>
+  - <https://github.com/C-LAEF/claef_1k/pull/147>
+  - <https://github.com/C-LAEF/claef_1k/pull/150>
+  - <https://github.com/C-LAEF/claef_1k/pull/153>
+  - <https://github.com/C-LAEF/claef_1k/pull/154>
+
 ### 26.01.2026 09 UTC
 - Use of new binaries including fix for SST in OIMAIN
   - <https://github.com/C-LAEF/arpifs/pull/27>
