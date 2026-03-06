@@ -16,11 +16,12 @@ nav_order: 1
 ## Start GUI and the ecflow server
 - Command *ecflow_ui &* should open the graphical user interface of ecflow
 - create your ecflow server, with its name, host, and port configuration under *Servers -> Manage Servers -> add server*
-- check in the terminal if your server is running: *ecflow_client --ping --host crayfe1 --port [your_port_number]*
+- check in the terminal if your server is running: *ecflow_client --ping --host [crayfe1/crayfe2] --port [your_port_number]*
 
 ## Change config file:
 - open claef1k/def/config_gsa.toml
 - under [general], modify your email address and host/port combination you set in the previous step
+- under [gsa], modify user and server that is used to fetch observations from NetApp
 - if you want to perform simulations beyond the standard configuration, modify the settings in this file according to your needs
 
 ## first guess file
