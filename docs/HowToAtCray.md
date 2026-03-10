@@ -16,7 +16,7 @@ nav_order: 1
 ## Start GUI and the ecflow server
 - Start your ecflow-server by running the *ecflow_start.sh* script within your *ecflow* conda environment. You have to do this only the first time you set this up, or when your ecflow-server crashed.
 - Command *ecflow_ui &* should open the graphical user interface of ecflow
-- create your ecflow server, with its name, host, and port configuration under *Servers -> Manage Servers -> add server*
+- create your ecflow server, with its name, host, and port configuration under *Servers -> Manage Servers -> add server* Leave the category "custom user" empty.
 - check in the terminal if your server is running: *ecflow_client --ping --host [crayfe1/crayfe2] --port [your_port_number]*
 
 ## Change config file:
