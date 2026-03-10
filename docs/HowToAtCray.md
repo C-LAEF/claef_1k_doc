@@ -33,5 +33,5 @@ nav_order: 1
 ## run and monitor your suite
 - usually with the ecflow_UI
 
-For any further questions, contact Brigitta Goger, brigitta.goger@geosphere.at
+For any further questions or feedback, contact Brigitta Goger, brigitta.goger@geosphere.at
 
