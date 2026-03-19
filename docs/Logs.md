@@ -3,6 +3,8 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+### 26.02.2026 06 UTC
+- End of technical test period. Back to a setup with 2 ctrl members, rest short members.
 
 ### 17.02.2026 09 UTC
 - Start of technical test period. System was updated including long ctrl runs to replace some members, optimized facat and some minor fixes.
