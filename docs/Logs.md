@@ -3,8 +3,18 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+
+### 26.03.2026 06 UTC
+- Technical update of the suite. Some new GSA related features in preparation for operations are implemented.
+  - <https://github.com/C-LAEF/claef_1k/pull/162>
+  - <https://github.com/C-LAEF/claef_1k/pull/159>
+  - <https://github.com/C-LAEF/claef_1k/pull/158>
+  - <https://github.com/C-LAEF/claef_1k/pull/157>
+  - <https://github.com/C-LAEF/claef_1k/pull/156>
+
 ### 26.02.2026 06 UTC
-- End of technical test period. Back to a setup with 2 ctrl members, rest short members.
+- End of technical test period. Back to a setup with 2 ctrl members, rest short members. Include fix for temperature in the mountains.
+  - <https://github.com/C-LAEF/claef_1k/pull/155>
 
 ### 17.02.2026 09 UTC
 - Start of technical test period. System was updated including long ctrl runs to replace some members, optimized facat and some minor fixes.
