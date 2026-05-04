@@ -3,7 +3,9 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
-
+### 04.05.2026 09 UTC
+- change LSM - new clim files
+  
 ### 26.03.2026 06 UTC
 - Technical update of the suite. Some new GSA related features in preparation for operations are implemented.
   - <https://github.com/C-LAEF/claef_1k/pull/162>
