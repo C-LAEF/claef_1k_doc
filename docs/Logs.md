@@ -3,6 +3,15 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+
+### 05.05.2026 06 UTC
+- Suite updated with some technical and scientific updates/fixes. 
+  - <https://github.com/C-LAEF/claef_1k/pull/169>
+  - <https://github.com/C-LAEF/claef_1k/pull/168>
+  - <https://github.com/C-LAEF/claef_1k/pull/167>
+  - <https://github.com/C-LAEF/claef_1k/pull/166>
+  - <https://github.com/C-LAEF/claef_1k/pull/165>
+
 ### 04.05.2026 09 UTC
 - change LSM - new clim files
   
