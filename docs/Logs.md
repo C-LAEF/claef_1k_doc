@@ -3,6 +3,8 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+### 19.05.2026 06 UTC
+- Start of warm-up phase with full ensemble in lagged mode.
 
 ### 05.05.2026 06 UTC
 - Suite updated with some technical and scientific updates/fixes. 
