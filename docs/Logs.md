@@ -4,9 +4,11 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
-### 16.06.2026 06 UTC
+### 01.07.2026 06 UTC
+- Hot fix to reduce transfer to Croatia <https://github.com/C-LAEF/claef_1k/releases/tag/v1.0.1>
+  
+# 16.06.2026 06 UTC
 - Operationalisation of C-LAEF Alpe Adria <https://github.com/C-LAEF/claef_1k/releases/tag/v1.0.0>
-
 
 ### 19.05.2026 06 UTC
 - Start of warm-up phase with full ensemble in lagged mode.
