@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 13.07.2026 09 UTC
+- Switch off Rauchenwarth Radar
+
 ### 01.07.2026 06 UTC
 - Hot fix to reduce transfer to Croatia <https://github.com/C-LAEF/claef_1k/releases/tag/v1.0.1>
   
