@@ -3,6 +3,8 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+### 26.08.2026 06 UTC
+- Fixes for facat (avoid I/O issues) and canari (snowgrid)
 
 ### 27.07.2026 06 UTC
 - Fixes for switch_sthost and proper mirroring. <https://github.com/C-LAEF/claef_1k/releases/tag/v1.0.1>
