@@ -3,6 +3,10 @@ layout: default
 title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
+
+### 15.09.2026 09 UTC
+- Reactivate Ceilometer
+
 ### 26.08.2026 06 UTC
 - Fixes for facat (avoid I/O issues) and canari (snowgrid)
 
