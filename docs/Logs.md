@@ -4,6 +4,9 @@ title: Changes in C-LAEF 1k suite
 nav_order: 8
 ---
 
+### 29.09.2026 06 UTC
+- Technical update, input of 927 uses files disseminated to user zacs, include HARP FCTables in mirroring, switch off transfer of copied control member to GSA
+
 ### 15.09.2026 09 UTC
 - Reactivate Ceilometer
 
