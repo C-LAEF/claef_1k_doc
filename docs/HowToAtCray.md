@@ -9,7 +9,7 @@ nav_order: 1
 ## get the repository
 - Clone the C-LAEF AA repo from your own github-fork
 - create the relevant conda environments:
-- *conda env create -n ecflow --file ecflow_cray.yml*. The ecflow_cray.yml is part of the repo and can be found in *include/gsa*
+- *conda env create -n ecflow -f ecflow_cray.yml*. The ecflow_cray.yml is part of the repo and can be found in *include/gsa*
 - *conda env create -n oldearthkit -f earthkit_0_10_4.yml*. The earthkit.yml file is also located in *include/gsa*
 - *conda activate oldearthkit* -> then install *pyproj* via conda-forge
 
