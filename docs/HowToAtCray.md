@@ -33,5 +33,10 @@ nav_order: 1
 ## run and monitor your suite
 - usually with the ecflow_UI
 
+## SLHD extra members
+- in general, follow the instructons above to set up your suite.
+- Clone the following claef_1k branch: https://github.com/C-LAEF/claef_1k/tree/claef1k_dyn
+- Currently, the suite consists of three members, each of them with a different dynamics setting (see NAMEL for the details), also including different binaries.
+
 For any further questions or feedback, contact Brigitta Goger, brigitta.goger@geosphere.at
 
