@@ -24,7 +24,7 @@ nav_order: 1
 - under [general], modify your email address and host/port combination you set in the previous step
 - under [gsa], modify user and server that is used to fetch observations from NetApp
 - if you want to perform simulations beyond the standard configuration, modify the settings in this file according to your needs
-- if you want to transfer the final grib-files to NetApp you will need to adapt paths/target machine/target user... in *include/gsa/send2vvhmod.inp* and make sure you have your ssh-keys setup properly.
+- if you want to transfer the final grib-files to NetApp you will need to adapt paths/target machine/target user... in *include/gsa/send2vvhmod.inp* and make sure you have your ssh-keys setup properly via *ssh-copy-id*.
 
 ## Start your ecflow suite
 - in the folder def/
